@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=Jersey+25&family=Marmelad&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ribeye&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --cor1: #020C04;
-    --cor2: #1E1C1C;
-    --cor3: #52CB49;
-}
-
 body {
     background: linear-gradient(to bottom, var(--cor1), var(--cor3));
     font-family: 'Marmelad', sans-serif;
@@ -27,12 +15,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-
-.menu {
-    display: flex;
-    gap: 30px;
 }
 
 nav a {
